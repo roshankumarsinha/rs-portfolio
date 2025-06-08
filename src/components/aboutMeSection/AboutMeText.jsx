@@ -4,7 +4,7 @@ const AboutMeText = () => {
   return (
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
-      <p>
+      <div>
         <p>
           I'm a results-driven <b>Senior Software Engineer</b> with over 4 years of experience designing, building, and optimizing scalable web applications using
           modern technologies like <b>React, TypeScript, Node.js, GraphQL, Redux-Saga, and React Query</b>. I specialize in crafting clean, maintainable code with
@@ -29,7 +29,7 @@ const AboutMeText = () => {
         </ul>
         I’m passionate about empowering others to grow their careers while continuing to advance my own through continuous learning and impactful engineering work.
         Let’s connect and create something meaningful — whether it’s scalable code or career success.
-      </p>
+      </div>
       <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
         <Link
           spy={true}
