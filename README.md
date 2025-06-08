@@ -22,17 +22,23 @@ Welcome to the source code for my personal portfolio website — [Roshan Sinha](
 
 rs-portfolio/
 ├── public/
-│ └── resume.pdf # Downloadable resume
+│   ├── images/              # Static images and icons
+│   └── resume.pdf           # Downloadable resume
+│
 ├── src/
-│ ├── assets/ # Images and icons
-│ ├── components/ # Reusable UI components like Navbar, Hero, Footer, etc.
-│ ├── pages/ # Page-level sections like About, Skills, Notes, etc.
-│ ├── App.jsx # Main app entry
-│ └── index.js # React DOM render
-├── tailwind.config.js # Tailwind setup
-├── postcss.config.js # PostCSS setup
-├── package.json # Project metadata and dependencies
-└── README.md # You're here!
+│   ├── assets/              # Custom fonts, graphics, and logos
+│   ├── components/          # Reusable UI components (e.g., Navbar, Footer, Button)
+│   ├── sections/            # Main page sections (e.g., About, Skills, Projects, Contact)
+│   ├── App.jsx              # Root component with section layout
+│   ├── main.jsx             # App entry point (ReactDOM.render)
+│   └── index.css            # Global Tailwind CSS styles
+│
+├── .gitignore               # Files to be ignored by Git
+├── package.json             # Project metadata and dependencies
+├── postcss.config.js        # PostCSS configuration for Tailwind
+├── tailwind.config.js       # Tailwind customization
+└── vite.config.js           # Vite build tool config
+
 
 ---
 
@@ -57,6 +63,7 @@ rs-portfolio/
 2. **Install dependencies**
    ```bash
    npm install
+    ```
 
 
 3. **Start the development server**
