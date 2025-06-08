@@ -20,6 +20,7 @@ Welcome to the source code for my personal portfolio website — [Roshan Sinha](
 
 ## 📁 Folder Structure
 
+```plaintext
 rs-portfolio/
 ├── public/
 │   ├── images/              # Static images and icons
@@ -38,7 +39,7 @@ rs-portfolio/
 ├── postcss.config.js        # PostCSS configuration for Tailwind
 ├── tailwind.config.js       # Tailwind customization
 └── vite.config.js           # Vite build tool config
-
+```
 
 ---
 
