@@ -75,13 +75,13 @@ rs-portfolio/
 4. **Open in browser**
     Navigate to `http://localhost:5173` in your web browser.
 
+5. **Build for production**
+   ```bash
+   npm run build
+    ```
+    
 ----
 
-## 📄 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-----
-<!-- Write for contact -->
 ## 📫 Contact
 Feel free to reach out for any questions, feedback, or collaboration opportunities:
 - **Email**: [roshankumarsinha321@gmail.com](mailto:roshankumarsinha321@gmail.com)
