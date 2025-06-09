@@ -8,6 +8,7 @@ const ContactMeRight = () => {
         src="../../public/images/email-image.png"
         alt="email image"
         className="max-w-[300px]"
+        loading="lazy"
       />
       <ContactInfo />
       <ContactSocial />

@@ -5,6 +5,7 @@ const SubSkills = () => {
       <img
         src="../../public/images/subSkills.jpg"
         alt="subSkills image"
+        loading="lazy"
       />
     </div>
   );

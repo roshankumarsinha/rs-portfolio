@@ -15,6 +15,7 @@ Welcome to the source code for my personal portfolio website — [Roshan Sinha](
 - **React Scroll** – Smooth navigation between sections
 - **React Icons** – Iconography
 - **Vercel** – Deployment platform
+- **EmailJS** – Contact form functionality
 
 ---
 

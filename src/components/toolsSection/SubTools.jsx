@@ -6,6 +6,7 @@ const SubTools = () => {
         src="../../public/images/subTools.png"
         alt="subTools image"
         className="lg:h-[104px] lg:w-[1290px] mx-auto md:h-[51px] md:w-[600px] sm:h-[25px] sm:w-[300px]"
+        loading="lazy"
       />
     </div>
   );

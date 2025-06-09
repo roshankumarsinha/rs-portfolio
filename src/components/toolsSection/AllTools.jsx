@@ -71,7 +71,7 @@ const AllTools = () => {
       {tools.map((item, index) => {
         return (
           <motion.div
-            variants={fadeIn("up", `0.${index}`)}
+            variants={fadeIn("up", index * 0.1)}
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0 }}
