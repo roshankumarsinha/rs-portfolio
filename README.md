@@ -1,10 +1,10 @@
 # 🧑‍💻 RS Portfolio
 
-Welcome to the source code for my personal portfolio website — [Roshan Sinha](https://roshankumarsinha.netlify.app/). This project showcases who I am, what I do, the technologies I work with, and the projects I've built. It's built using modern web technologies with a clean and responsive design.
+Welcome to the source code for my personal portfolio website — [Roshan Sinha](https://rs-portfolio-rouge.vercel.app/). This project showcases who I am, what I do, the technologies I work with, and the projects I've built. It's built using modern web technologies with a clean and responsive design.
 
 ## 🚀 Live Demo
 
-👉 [Visit Portfolio](https://roshankumarsinha.netlify.app/)
+👉 [Visit Portfolio](https://rs-portfolio-rouge.vercel.app/)
 
 ---
 
