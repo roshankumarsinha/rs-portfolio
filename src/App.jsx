@@ -31,6 +31,6 @@ const App = () => {
       <FooterMain />
     </main>
   );
-}
+};
 
 export default App;
