@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+  // This tells Tailwind which files to scan for class names. It includes:
+    "./index.html",   //  the root HTML file.
+    "./src/**/*.{js,ts,jsx,tsx}",   //  All .js, .ts, .jsx, and .tsx files inside the src folder and its subfolders.
   ],
   theme: {
+  // This section customizes the default design tokens like breakpoints, colors, fonts, shadows, etc.
     screens: {
       sm: "350px",
       md: "768px",
@@ -29,6 +31,7 @@ export default {
       darkGrey: "#3f4441",
     },
     extend: {
+    // The extend key is used to add custom styles (instead of replacing Tailwind’s defaults).
       boxShadow: {
         cyanShadow: "0px 0px 20px 0px rgba(94, 206, 220, 0.5)",
         cyanBigShadow: "10px 10px 1000px 500px rgba(94, 206, 220, 0.3)",

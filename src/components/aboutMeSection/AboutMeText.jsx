@@ -36,7 +36,7 @@ const AboutMeText = () => {
           smooth={true}
           duration={500}
           offset={-120}
-          to="projects"
+          to="projects" // TODO : This part needs to be added in future
           className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
         >
           My Projects
