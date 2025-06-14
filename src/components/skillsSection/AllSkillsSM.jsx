@@ -5,6 +5,11 @@ import { skills } from "./AllSkills";
 const AllSkillsSM = () => {
   return (
     <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-12 my-12">
+    {/*
+      This component displays a grid of skills for smaller screens.
+      It uses a responsive grid layout with 4 columns on medium screens and 2 columns on small screens.
+      The gap between the grid items is set to 12, and there is a margin of 12 on the top and bottom.
+    */}
       {skills.map((item, index) => {
         return (
           <motion.div

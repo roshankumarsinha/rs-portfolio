@@ -54,7 +54,7 @@ productivity through better tooling support and early error detection during dev
 
 const AllExperiences = () => {
   return (
-    <div className="flex sm:flex-col items-center justify-between">
+    <div className="flex flex-col items-center justify-between">
       {experiences.map((experience, index) => {
         return  <SingleExperience key={index} experience={experience} />
       })}

@@ -23,6 +23,7 @@ const ExperienceMain = () => {
       >
         <ExperienceTop />
       </motion.div>
+      {/* Below line creates a horizontal line on larger screen and hides it on smaller screen */}
       <div className="w-full h-1 mt-4 bg-lightBrown lg:block sm:hidden"></div>
       <AllExperiences />
     </div>

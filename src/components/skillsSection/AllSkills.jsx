@@ -68,6 +68,13 @@ export const skills = [
 const AllSkills = () => {
   return (
     <div className="flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto">
+    {/*
+      This div is used to center the skills section and provide a maximum width of 1200px.
+      The gap-2 class adds a small space between each skill item.
+      The relative class allows for absolute positioning of child elements if needed.
+      max-w-[1200px] mx-auto: This sets a maximum width of 1200px for the container and centers it horizontally within the viewport.
+      flex items-center justify-center: This makes the container a flexbox, aligning items in the center both vertically and horizontally.
+    */}
       {skills.map((item, index) => {
         return (
           <motion.div

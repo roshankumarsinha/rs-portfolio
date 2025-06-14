@@ -9,6 +9,10 @@ const SingleNote = ({ name, taughtBy, link, align, image }) => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.1 }}
+      // Stacks vertically on small screens
+      // On medium+ screens:
+        // align: left → Image on left, text on right
+        // align: right → Image on right, text on left
       className={`flex w-full sm:flex-col-reverse items-center gap-8 ${
         align === "left" ? "md:flex-row" : "md:flex-row-reverse"
       } justify-end sm:flex-col`}

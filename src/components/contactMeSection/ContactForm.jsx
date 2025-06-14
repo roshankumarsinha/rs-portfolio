@@ -17,6 +17,17 @@ const ContactForm = () => {
   };
   const form = useRef();
   const sendEmail = (e) => {
+    //  Prevents default form behavior.
+    // Calls emailjs.sendForm() with:
+    // Service ID: "service_zq0egks"
+    // Template ID: "template_lmst7mg"
+    // Form element via form.current
+    // Public Key: "o0qCRqW5sUgO4zXSe"
+    // ✅ On Success:
+      // Clears form
+      // Shows success message
+    // ❌ On Failure:
+      // Logs the error
     e.preventDefault();
     emailjs
       .sendForm("service_zq0egks", "template_lmst7mg", form.current, {
@@ -39,9 +50,10 @@ const ContactForm = () => {
     <div>
       <p className="text-cyan">{success}</p>
       <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4">
+      {/* Adds a timestamp to the form data (custom metadata for the message). */}
         <input
           type="hidden"
-          name="time"
+          name="time"   // The name attribute is used by emailjs to identify the field value.
           className="h-0 w-0"
           value={new Date().toLocaleString()}
           onChange={() => {}}
