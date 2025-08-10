@@ -23,7 +23,7 @@ const notes = [
     taughtBy: "Akshay Saini",
     align: "right",
     image: "/images/react.png",
-    link: "#",
+    link: "https://github.com/roshankumarsinha/namaste-react",
   },
   {
     name: "Namaste JavaScript (in progress)",
